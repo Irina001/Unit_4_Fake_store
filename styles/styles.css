@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100%;
+}
+
+#display {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
